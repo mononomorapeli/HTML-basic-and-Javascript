@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <h1> Welcome to my Profile</h1>
+    <img src="https://media.istockphoto.com/id/497347644/photo/hand-pressing-register-now.jpg?s=612x612&w=0&k=20&c=XzXNw7_71cx23yPATWsSnYwGytZW-KU3eTpy3WCFQgw=" width="50%">
+    
+    <form onsubmit="return false" method="get">
+        <div class="container">
+        <p>Please fill in this form to create an account.</p>
+        <label for="FirstName">First Name</label><br>
+        <input type="text" id ="firstName" name ="FirstName"><br>
+
+        <label for="lastName">Last Name</label><br>
+        <input type="text" id ="lastName" name ="LastName"><br>
+        
+        <label for="Password">Password</label><br>
+        <input type="password" id ="password" name ="Password"><br>
+
+        <label for="Gender">Gender</label><br>
+        <select id="gender" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Do Not Disclose">Do not Disclose</option>
+        </select>
+
+      
+          
+      
+        </div>
+
+    </form>
+    <button type="submit"  onclick="getFormValues()">Register</button>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

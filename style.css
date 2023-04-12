@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+  img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+  }
+  div {
+    width: 300px;
+    border: 15px solid rgb(0, 117, 128);
+    padding: 50px;
+    margin: 20px;
+  }
